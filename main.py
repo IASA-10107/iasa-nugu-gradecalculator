@@ -6,7 +6,7 @@ __grade = {"B-": 2.7, "B0": 3.0, "B+": 3.3, "A-": 3.7, "A0": 4.0, "A+": 4.3}
 __get_grade = __grade.__getitem__
 
 __subject_main = ("기하", "미적분", "물리", "화학", "생명과학", "지구과학")
-__subject_sub = ("컴프", "국어", "영어", "한국사")
+__subject_sub = ("컴프", "국어", "영어", "한국사", "공학개론")
 
 st.header("주요과목: 3학점")
 for s in __subject_main: 
